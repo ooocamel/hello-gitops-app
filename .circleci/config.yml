@@ -9,7 +9,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "_FINGERPRINTS_"
+            - "9a:3e:ee:84:83:a2:23:c9:8d:4b:b8:0d:77:fa:78:33"
 
       - run:
           name: install kustomize
